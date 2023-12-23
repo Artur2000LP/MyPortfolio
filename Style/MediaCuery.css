@@ -1,0 +1,116 @@
+
+/*media cuerys*/
+
+/* --------- */
+@media  (min-width:580px) {
+ 
+  
+  .nav {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .nav__list {
+    margin-top: 0;
+    position: relative;
+    padding: .5rem 1rem;
+    display: flex;
+    gap: 2.5rem;
+    list-style: none;
+    transform: none;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0);
+    padding-right: 3rem;
+    
+  }
+  .menu {
+    display: none;
+  }
+  .nav__item {
+    border-radius: 10px;
+    background-color: #457d97;
+    border:1px solid #ffffffd8;
+    transition: all 1s;
+  }
+  
+  .nav__item:hover {
+    background: #2a4856;
+    width: 7rem;
+  }
+  
+  .nav__bar {
+    display: none;
+  }
+  .bar_i {
+    color: #fff;
+    font-size: 24px;
+  }
+
+    /*sobre mi */
+  .nav_about_me {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    overflow: hidden;
+    background: #f1f3f3 ;
+    
+    
+
+  }
+  #textoAutomatico {
+    white-space: nowrap; 
+    overflow: hidden; 
+    height: 5rem;
+  }
+  .cont_text_Automatico {
+    padding: 1rem;
+    
+  }
+  .text_Automatico {
+    padding: 1rem;
+    font-size: 2.2rem;
+    color: #212F3D;
+  }
+  .div_img {
+   
+    background: #477f99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 50;
+    width: 55vh; /* Puedes ajustar el ancho del contenedor según tus necesidades */
+    height: 55vh;
+    margin: auto;
+
+  }
+  .img_Artur {
+    display: block;
+    height: auto;
+    width: 310px;
+    
+  }
+
+  /**/
+
+  .learn__articles {
+    gap: 2rem;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+  }
+  .learn__articles {
+    margin: 3rem;
+    margin-bottom: 5rem;
+    display: grid;
+    gap: 3rem;
+}
+  
+
+
+}
